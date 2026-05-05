@@ -1,5 +1,5 @@
 import React from "react";
-import HeroSection from "./HeroSection";
+import HeroSection from "./Herosection";
 import projectData from "../data/projectData";
 import { Link } from "react-router-dom";
 import HtmlLogo from './../assets/html-logo.png';
