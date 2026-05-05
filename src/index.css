@@ -1,0 +1,92 @@
+@media(min-width: 768px) {
+    .nav-item.contact a {
+        background: #f8f9fa;
+        border-radius: 30px;
+        color: #000 !important;
+        margin: 0 15px;
+        padding: 10px 20px !important;
+    }
+}
+
+#root {
+    background: linear-gradient(to right, #FCE1CA, #8fc3df);
+    z-index: 999 !important;
+    position: relative;
+}
+
+
+
+.contact-cards .card {
+    background: #c4c4c4;
+    box-shadow: 0 0 20px 0 #D7d7d7;
+    border: none;
+}
+
+.card-subtitle {
+  color: #d7d7d7;
+  margin: 10px 0;
+}
+
+.contact-cards .card .card-body a {
+    background-size: contain !important;
+    height: 25px;
+    width: 25px;
+    display: block;
+}
+
+.contact-cards:first-of-type .card .card-body a {
+    background: url('/src/assets/svgs/linked-icon.svg') no-repeat center;
+}
+
+.contact-cards:nth-of-type(2) .card .card-body a {
+    background: url('src/assets/svgs/email-icon.svg') no-repeat center;
+}
+
+.contact-cards:nth-of-type(3) .card .card-body a {
+    background: url('/src/assets/svgs/whatsapp-icon.svg') no-repeat center;
+}
+
+.contact-cards .card {
+    height: 40px;
+    width: 40px;
+}
+
+.contact-cards .card-body {
+    padding: 8px !important;
+    flex: unset;
+    align-self: center;
+}
+
+.projects .card {
+    border-radius: 15px;
+    box-shadow: 0 0 20px 0 #333 !important;
+}
+
+.progress-bar {
+    background: #000;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.layout-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
+
+.about-me .img-card img {
+    width: 50%;
+}
+
+.about-me .img-card {
+    width: 40%;
+    margin: auto;
+}
